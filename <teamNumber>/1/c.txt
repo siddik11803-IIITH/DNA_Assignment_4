@@ -1,1 +1,4 @@
-
+SELECT * FROM POINT
+ORDER by (X*X + Y*Y + Z*Z) ASC
+LIMIT k
+/*It is assumed the value of k is a constant*/
