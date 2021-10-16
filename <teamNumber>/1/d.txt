@@ -1,2 +1,2 @@
-SELECT @X_centroid := AVG(X) , @Y_centroid := AVG(Y) , @Z_centroid := AVG(Z) 
+SELECT AVG(X) AVG(Y) AVG(Z) 
 FROM POINT;
